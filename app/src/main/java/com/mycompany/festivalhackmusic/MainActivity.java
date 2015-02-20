@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void onStream(View view)
     {
-        
+
     }
 
 }
