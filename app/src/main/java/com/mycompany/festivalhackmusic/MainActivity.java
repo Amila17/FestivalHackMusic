@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.*;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 import com.twilio.sdk.TwilioRestException;
@@ -52,4 +53,10 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void onStream(View view)
+    {
+        
+    }
+
 }
