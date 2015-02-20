@@ -12,13 +12,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stream"
-        android:id="@+id/button"
+        android:text="@string/get_stream"
         android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/textView"
         android:layout_toEndOf="@+id/textView"
         android:layout_marginTop="67dp"
-        android:onClick="@string/onStream" />
+        android:onClick="onStream" />
 
     <Button
         android:layout_height="wrap_content"
