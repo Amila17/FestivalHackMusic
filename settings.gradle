@@ -1,2 +1,0 @@
-include ':app'
-include ':libs:7digital-Android-SDK'
