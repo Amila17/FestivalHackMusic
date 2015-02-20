@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('7digital-android-sdk-v0.93-withDependencies.jar'))

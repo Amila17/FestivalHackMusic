@@ -21,4 +21,7 @@
     <string name="label_data">Data</string>
     <string name="label_state">State</string>
     <string name="label_device_address">Device Address</string>
+    <string name="get_stream">Stream</string>
+    <string name="get_artists">Get Artists</string>
+
 </resources>

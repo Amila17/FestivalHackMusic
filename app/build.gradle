@@ -25,11 +25,23 @@ android {
         exclude 'META-INF/ASL2.0'
     }
     productFlavors {
-    }
-}
 
-dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:21.0.3'
-    compile 'com.twilio.sdk:twilio-java-sdk:3.7.0'
+        dexOptions {
+            incremental true
+        }
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile project(':sdk')
+        compile 'com.jakewharton:butterknife:6.+'
+
+        compile 'com.mcxiaoke.volley:library:1.0.10'
+        compile 'com.android.support:appcompat-v7:21.0.3'
+        //compile project(':sdk')
+
+        //compile files('D:/FestivalHack/Code/FestivalHackMusic/libs/7digital-android-sdk-v0.93-withDependencies.jar')
+        //compile files('D:/FestivalHack/Code/FestivalHackMusic/libs/7digital-android-sdk-v0.93.jar')
+        compile fileTree(dir: 'libs', include: ['*.jar'])
+    }
 }

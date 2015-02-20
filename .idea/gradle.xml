@@ -9,9 +9,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/7DigitalAndroidSdk" />
             <option value="$PROJECT_DIR$/app" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/libs" />
             <option value="$PROJECT_DIR$/libs/7digital-Android-SDK" />
+=======
+            <option value="$PROJECT_DIR$/sdk" />
+>>>>>>> 54df3e5614998b7a0c6a420f0d201279884777e6
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,11 @@
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\classes\debug
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8e0784a7b78d162b22ea1f960f620d054c0708a3.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\json-simple-1.1-1a88cea73d63a1ae0814c9c5e243097d005f985b.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-674155f60782593bc45d0620a4b164b56e8f412a.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\twilio-java-sdk-3.7.0-b020a00161dbe09d4687dee18d2caee92cce40ed.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\httpcore-4.2.5-2fb5e2993e1f7d01ff392b7fd597f0e7ed22b50d.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\jackson-core-asl-1.9.3-783ee603c3cf167579a5bba1770bd16a036aba10.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-cc143c991200ea578ae42ad493d494042ca35583.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\classes-c67739f921349edd461d3631ba32b1c03be6d8a2.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\jackson-mapper-asl-1.9.3-af5e622f2aafe3347f7e18f3bbb630b14aeb960f.jar
+C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\classes-1d3a8601f015e6d9782a3236216a6cf67c8b44ce.jar
