@@ -1,0 +1,3 @@
+[submodule "libs/7digital-Android-SDK"]
+	path = libs/7digital-Android-SDK
+	url = git@github.com:7digital/7digital-Android-SDK.git
