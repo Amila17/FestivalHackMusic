@@ -1,5 +1,7 @@
 package com.mycompany.festivalhackmusic;
 
+import android.app.ActivityManager;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.app.ActionBarActivity;
@@ -7,6 +9,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
 
 import org.json.JSONException;
 
@@ -16,6 +21,10 @@ import java.util.ArrayList;
 
 import java.security.SignatureException;
 import java.util.concurrent.ExecutionException;
+
+import uk.co.sevendigital.android.sdk.api.SDIApi;
+import uk.co.sevendigital.android.sdk.util.SDIServerUtil;
+import uk.co.sevendigital.android.sdk.util.VolleyUtil;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -40,6 +49,23 @@ public class MainActivity extends ActionBarActivity {
         ArrayList<String> artists = client.GetArtists();
     }
 
+    public void onStream(View view) throws InterruptedException, ExecutionException, SignatureException, IOException {
+
+        TextView txtView = (TextView) findViewById(R.id.onStreamOutput);
+        txtView.setText("onStream Clicked");
+
+        //SevenDigitalClient client = new SevenDigitalClient();
+        //client.StreamMusic("38656894");
+        SDIServerUtil.OauthConsumer sOauthConsumer = new SDIServerUtil.OauthConsumer("musichackday", "letmehack");
+        RequestQueue requestQueue = Volley.newRequestQueue(this);
+
+
+        SDIApi sSDIApi = new SDIApi(this,requestQueue, sOauthConsumer);
+        sSDIApi.streaming().getTrackPreview("38656894");
+
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -63,12 +89,5 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onStream(View view) throws InterruptedException, ExecutionException, SignatureException, IOException {
-
-        TextView txtView = (TextView) findViewById(R.id.onStreamOutput);
-        txtView.setText("onStream Clicked");
-       // SevenDigitalService.getApi().streaming().getTrackPreview("38656894");
-
-    }
 
 }
