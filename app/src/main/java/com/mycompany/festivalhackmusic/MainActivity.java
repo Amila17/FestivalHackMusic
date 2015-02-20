@@ -1,15 +1,16 @@
 package com.mycompany.festivalhackmusic;
 
+import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.view.*;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import org.json.JSONException;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -27,6 +28,11 @@ public class MainActivity extends ActionBarActivity {
     public void sendNotification(View view) throws IOException {
         TwilioClient client = new TwilioClient();
         client.SendNotification("Eye of the tiger", 220);
+    }
+
+    public void getArtists(View view)  {
+        GigSetListClient client = new GigSetListClient();
+        ArrayList<String> artists = client.GetArtists();
     }
 
 

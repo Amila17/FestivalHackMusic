@@ -1,0 +1,374 @@
+{
+        "artists": [
+            {
+                "urlKey": "az52rz",
+                "name": "Ady Croasdell",
+                "role": "PERFORMER",
+                "sortName": "Ady Croasdell",
+                "actName": "Ady Croasdell"
+            },
+            {
+                "url": "/events/e8qbj5/acts/adpc6q",
+                "urlKey": "adpc6q",
+                "name": "British Sea Power",
+                "role": "PERFORMER",
+                "sortName": "British Sea Power",
+                "actName": "British Sea Power"
+            },
+            {
+                "urlKey": "arjv9r",
+                "name": "Craig Charles",
+                "role": "PERFORMER",
+                "sortName": "Craig Charles",
+                "actName": "Craig Charles"
+            },
+            {
+                "urlKey": "a82bc8",
+                "name": "DJ Yoda",
+                "role": "PERFORMER",
+                "sortName": "DJ Yoda",
+                "actName": "DJ Yoda"
+            },
+            {
+                "urlKey": "agrcd4",
+                "name": "Daniel Avery",
+                "role": "PERFORMER",
+                "sortName": "Daniel Avery",
+                "actName": "Daniel Avery"
+            },
+            {
+                "urlKey": "a8nj3d",
+                "name": "Django Django",
+                "role": "PERFORMER",
+                "sortName": "Django Django",
+                "actName": "Django Django"
+            },
+            {
+                "url": "/events/e8qbj5/acts/azwfhn",
+                "urlKey": "azwfhn",
+                "name": "Eliza Carthy",
+                "role": "PERFORMER",
+                "sortName": "Carthy, Eliza",
+                "actName": "Kate Tempest and Eliza Carthy"
+            },
+            {
+                "urlKey": "ag56v2",
+                "name": "Father John Misty",
+                "role": "PERFORMER",
+                "sortName": "Father John Misty",
+                "actName": "Father John Misty"
+            },
+            {
+                "urlKey": "amz84f",
+                "name": "Four Tet",
+                "role": "PERFORMER",
+                "sortName": "Four Tet",
+                "actName": "Four Tet"
+            },
+            {
+                "url": "/events/e8qbj5/acts/a6nj3d",
+                "urlKey": "a6nj3d",
+                "name": "Gaz Coombes",
+                "role": "PERFORMER",
+                "sortName": "Coombes, Gaz",
+                "actName": "Gaz Coombes"
+            },
+            {
+                "urlKey": "a28dgw",
+                "name": "Ghostpoet",
+                "role": "PERFORMER",
+                "sortName": "Ghostpoet",
+                "actName": "Ghostpoet"
+            },
+            {
+                "urlKey": "agfj6q",
+                "name": "Gilles Peterson",
+                "role": "PERFORMER",
+                "sortName": "Peterson, Gilles",
+                "actName": "Gilles Peterson"
+            },
+            {
+                "urlKey": "a48dgw",
+                "name": "Glass Animals",
+                "role": "PERFORMER",
+                "sortName": "Glass Animals",
+                "actName": "Glass Animals"
+            },
+            {
+                "url": "/events/e8qbj5/acts/adnj3d",
+                "urlKey": "adnj3d",
+                "name": "Gruff Rhys",
+                "role": "PERFORMER",
+                "sortName": "Rhys, Gruff",
+                "actName": "Gruff Rhys"
+            },
+            {
+                "url": "/events/e8qbj5/acts/arg4wh",
+                "urlKey": "arg4wh",
+                "name": "Hot Chip",
+                "role": "PERFORMER",
+                "sortName": "Hot Chip",
+                "actName": "Hot Chip"
+            },
+            {
+                "urlKey": "avpc6q",
+                "name": "Ibibio Sound Machine",
+                "role": "PERFORMER",
+                "sortName": "Ibibio Sound Machine",
+                "actName": "Ibibio Sound Machine"
+            },
+            {
+                "url": "/events/e8qbj5/acts/a3hxn3",
+                "urlKey": "a3hxn3",
+                "name": "Interpol",
+                "role": "PERFORMER",
+                "sortName": "Interpol",
+                "actName": "Interpol"
+            },
+            {
+                "url": "/events/e8qbj5/acts/aphxn3",
+                "urlKey": "aphxn3",
+                "name": "Jamie T",
+                "role": "PERFORMER",
+                "sortName": "T, Jamie",
+                "actName": "Jamie T"
+            },
+            {
+                "urlKey": "awx5q9",
+                "name": "Jamie xx",
+                "role": "PERFORMER",
+                "sortName": "Jamie xx",
+                "actName": "Jamie xx"
+            },
+            {
+                "url": "/events/e8qbj5/acts/awvq2m",
+                "urlKey": "awvq2m",
+                "name": "Jon Hopkins",
+                "role": "PERFORMER",
+                "sortName": "Hopkins, Jon",
+                "actName": "Jon Hopkins"
+            },
+            {
+                "url": "/events/e8qbj5/acts/aqc38g",
+                "urlKey": "aqc38g",
+                "name": "Jungle",
+                "role": "PERFORMER",
+                "sortName": "Jungle",
+                "actName": "Jungle"
+            },
+            {
+                "url": "/events/e8qbj5/acts/afvq2m",
+                "urlKey": "afvq2m",
+                "name": "Kate Tempest",
+                "role": "PERFORMER",
+                "sortName": "Tempest, Kate",
+                "actName": "Kate Tempest"
+            },
+            {
+                "url": "/events/e8qbj5/acts/azwfhn",
+                "urlKey": "azwfhn",
+                "name": "Kate Tempest",
+                "role": "PERFORMER",
+                "sortName": "Tempest, Kate",
+                "actName": "Kate Tempest and Eliza Carthy"
+            },
+            {
+                "url": "/events/e8qbj5/acts/abwfhn",
+                "urlKey": "abwfhn",
+                "name": "King Creosote",
+                "role": "PERFORMER",
+                "sortName": "King Creosote",
+                "actName": "King Creosote"
+            },
+            {
+                "urlKey": "afg4wh",
+                "name": "LoneLady",
+                "role": "PERFORMER",
+                "sortName": "LoneLady",
+                "actName": "LoneLady"
+            },
+            {
+                "urlKey": "a2rcd4",
+                "name": "Mary Anne Hobbs",
+                "role": "PERFORMER",
+                "sortName": "Hobbs, Mary Anne",
+                "actName": "Mary Anne Hobbs"
+            },
+            {
+                "url": "/events/e8qbj5/acts/achxn3",
+                "urlKey": "achxn3",
+                "name": "Maxïmo Park",
+                "role": "PERFORMER",
+                "sortName": "Maxïmo Park",
+                "actName": "Maxïmo Park"
+            },
+            {
+                "url": "/events/e8qbj5/acts/a6bzp6",
+                "urlKey": "a6bzp6",
+                "name": "Mogwai",
+                "role": "PERFORMER",
+                "sortName": "Mogwai",
+                "actName": "Mogwai"
+            },
+            {
+                "urlKey": "a3nd2m",
+                "name": "Nadine Shah",
+                "role": "PERFORMER",
+                "sortName": "Shah, Nadine",
+                "actName": "Nadine Shah"
+            },
+            {
+                "urlKey": "acvmzc",
+                "name": "Nemone",
+                "role": "PERFORMER",
+                "sortName": "Nemone",
+                "actName": "Nemone"
+            },
+            {
+                "url": "/events/e8qbj5/acts/a3bzp6",
+                "urlKey": "a3bzp6",
+                "name": "Neneh Cherry",
+                "role": "PERFORMER",
+                "sortName": "Cherry, Neneh",
+                "actName": "Neneh Cherry"
+            },
+            {
+                "url": "/events/e8qbj5/acts/a456v2",
+                "urlKey": "a456v2",
+                "name": "Public Service Broadcasting",
+                "role": "PERFORMER",
+                "sortName": "Public Service Broadcasting",
+                "actName": "Public Service Broadcasting"
+            },
+            {
+                "urlKey": "aj8wxj",
+                "name": "Richard Searling",
+                "role": "PERFORMER",
+                "sortName": "Richard Searling",
+                "actName": "Richard Searling"
+            },
+            {
+                "urlKey": "avwn5v",
+                "name": "Richie Ahmed",
+                "role": "PERFORMER",
+                "sortName": "Richie Ahmed",
+                "actName": "Richy Ahmed"
+            },
+            {
+                "urlKey": "a5ghj5",
+                "name": "Rob Da Bank",
+                "role": "PERFORMER",
+                "sortName": "Rob Da Bank",
+                "actName": "Rob Da Bank"
+            },
+            {
+                "url": "/events/e8qbj5/acts/ax29mb",
+                "urlKey": "ax29mb",
+                "name": "Royal Blood",
+                "role": "PERFORMER",
+                "sortName": "Royal Blood",
+                "actName": "Royal Blood"
+            },
+            {
+                "url": "/events/e8qbj5/acts/amg4wh",
+                "urlKey": "amg4wh",
+                "name": "Simian Mobile Disco",
+                "role": "PERFORMER",
+                "sortName": "Simian Mobile Disco",
+                "actName": "Simian Mobile Disco"
+            },
+            {
+                "url": "/events/e8qbj5/acts/apmrbp",
+                "urlKey": "apmrbp",
+                "name": "Sleater‐Kinney",
+                "role": "PERFORMER",
+                "sortName": "Sleater‐Kinney",
+                "actName": "Sleater‐Kinney"
+            },
+            {
+                "urlKey": "axcgfx",
+                "name": "Stuart Maconie",
+                "role": "PERFORMER",
+                "sortName": "Stuart Maconie",
+                "actName": "Stuart Maconie"
+            },
+            {
+                "urlKey": "avmp8g",
+                "name": "Teleman",
+                "role": "PERFORMER",
+                "sortName": "Teleman",
+                "actName": "Teleman"
+            },
+            {
+                "url": "/events/e8qbj5/acts/anmrbp",
+                "urlKey": "anmrbp",
+                "name": "The Charlatans",
+                "role": "PERFORMER",
+                "sortName": "Charlatans, The",
+                "actName": "The Charlatans"
+            },
+            {
+                "urlKey": "a5bzp6",
+                "name": "The Cribs",
+                "role": "PERFORMER",
+                "sortName": "Cribs, The",
+                "actName": "The Cribs"
+            },
+            {
+                "url": "/events/e8qbj5/acts/ajmrbp",
+                "urlKey": "ajmrbp",
+                "name": "The Fall",
+                "role": "PERFORMER",
+                "sortName": "Fall, The",
+                "actName": "The Fall"
+            },
+            {
+                "url": "/events/e8qbj5/acts/aq56v2",
+                "urlKey": "aq56v2",
+                "name": "The Maccabees",
+                "role": "PERFORMER",
+                "sortName": "Maccabees, The",
+                "actName": "The Maccabees"
+            },
+            {
+                "url": "/events/e8qbj5/acts/anwfhn",
+                "urlKey": "anwfhn",
+                "name": "The War on Drugs",
+                "role": "PERFORMER",
+                "sortName": "War on Drugs, The",
+                "actName": "The War on Drugs"
+            },
+            {
+                "urlKey": "ar29mb",
+                "name": "Unknown Mortal Orchestra",
+                "role": "PERFORMER",
+                "sortName": "Unknown Mortal Orchestra",
+                "actName": "Unknown Mortal Orchestra"
+            },
+            {
+                "url": "/events/e8qbj5/acts/a98dgw",
+                "urlKey": "a98dgw",
+                "name": "Villagers",
+                "role": "PERFORMER",
+                "sortName": "Villagers",
+                "actName": "Villagers"
+            },
+            {
+                "url": "/events/e8qbj5/acts/ah29mb",
+                "urlKey": "ah29mb",
+                "name": "Wire",
+                "role": "PERFORMER",
+                "sortName": "Wire",
+                "actName": "Wire"
+            },
+            {
+                "url": "/events/e8qbj5/acts/a9vq2m",
+                "urlKey": "a9vq2m",
+                "name": "Young Fathers",
+                "role": "PERFORMER",
+                "sortName": "Young Fathers",
+                "actName": "Young Fathers"
+            }
+        ]
+        }
+      

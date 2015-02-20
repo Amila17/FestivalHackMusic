@@ -2,6 +2,7 @@ package com.mycompany.festivalhackmusic;
 
 import android.util.Base64;
 
+
 import java.io.IOException;
 import java.util.*;
 
@@ -15,24 +16,11 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
 
+
 public class TwilioClient {
 
     public static final String ACCOUNT_SID = "AC3b1ea47c6184a8870640f84b0ebd062c";
     public static final String AUTH_TOKEN = "fdb3457f90c7a6f98622d444be289113";
-
-//    public void SendNotification(String songName, int heatRate) throws TwilioRestException {
-//        TwilioRestClient client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
-//
-//        // Build the parameters
-//        List<NameValuePair> params = new ArrayList<NameValuePair>();
-//        params.add(new BasicNameValuePair("To", "07999791559"));
-//        params.add(new BasicNameValuePair("From", "+441513290087"));
-//        params.add(new BasicNameValuePair("Body", "I'm working out my heart rate is " + heatRate + " and I'm listening to " + songName));
-//
-//        MessageFactory messageFactory = client.getAccount().getMessageFactory();
-//        Message message = messageFactory.create(params);
-//        System.out.println(message.getSid());
-//    }
 
     public void SendNotification(String songName, int heartRate) throws IOException {
         // Create a new HttpClient and Post Header
@@ -63,7 +51,4 @@ public class TwilioClient {
         String ret="Basic "+ Base64.encodeToString(source.getBytes(), Base64.URL_SAFE | Base64.NO_WRAP);
         return ret;
     }
-
-
-
 }
