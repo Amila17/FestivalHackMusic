@@ -18,156 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec220baf-80cf-46da-884c-0d85a54e56a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7digital-android-sdk-v0.93-withDependencies/7digital-android-sdk-v0.93-withDependencies.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FestivalHackMusic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/drawable-xxhdpi/placeholder_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/7DigitalAndroidSdk.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/search/AbsSearchFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/model/base/Artist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/ArtistChartsFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/activity/ArtistDetailActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/detail/ArtistDetailFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/search/ArtistSearchFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/activity/ChartActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/app/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/util/CoverHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/external/Escaper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/GigSetListClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/external/MD1HashCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/OkHttpStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/external/PercentEscaper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/model/base/Release.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/ReleaseChartsFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/activity/ReleaseDetailActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/detail/ReleaseDetailFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/search/ReleaseSearchFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/model/SCMCloudRelease.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/model/SCMCloudTrack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/model/SCMDeviceTrack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/model/SCMLockerTrack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/abs/SDIAbsJsonRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/abs/SDIAbsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/abs/SDIAbsXmlRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/SDIApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/object/SDIArtist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/artist/SDIArtistSearchRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/object/SDIChart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/object/SDIChartItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/core/SDIConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/core/SDICore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/artist/SDIGetArtistChartsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/artist/SDIGetArtistDetailsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/artist/SDIGetArtistReleasesRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/artist/SDIGetArtistTopTracksRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/release/SDIGetReleaseChartsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/release/SDIGetReleaseDetailsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/release/SDIGetReleaseTracksRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/track/SDIGetTrackChartsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/track/SDIGetTrackDetailsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/preview/SDIGetTrackPreviewRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/login/SDILoginUserRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/SDIOauthHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/object/SDIRelease.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/release/SDIReleaseSearchRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/object/SDISearchResults.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/SDIServerUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/SDIStringUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/object/SDITrack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/api/request/track/SDITrackSearchRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/app/SampleApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/activity/SearchActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/SevenDigitalClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/artist/TSDIArtistReleasesRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/artist/TSDIArtistSearchRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/artist/TSDIGetArtistChartsJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/artist/TSDIGetArtistDetailsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/artist/TSDIGetArtistTopTracksRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/release/TSDIGetReleaseChartsJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/release/TSDIGetReleaseDetailsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/track/TSDIGetTrackChartsJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/track/TSDIGetTrackDetailsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/preview/TSDIGetTrackPreviewRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/login/TSDILoginUserRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/release/TSDIReleaseSearchRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/release/TSDIReleaseTracksRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/api.request/track/TSDITrackSearchRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/model/base/Track.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/TrackChartsFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/activity/TrackDetailActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/detail/TrackDetailFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/java/uk/co/sevendigital/android/sdk/sample/fragment/search/TrackSearchFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/external/UnicodeEscaper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/androidTest/java/uk.co.sevendigital.android.sdk.test/util/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/java/uk/co/sevendigital/android/sdk/util/VolleyUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/ab_row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/artist_detail_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/artist_detail_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/artist_row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/artists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7digital-android-sdk-v0.93-withDependencies/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/main_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/menu/menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/proguard-rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/release_detail_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/release_detail_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/release_row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/sdk.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/search_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/search_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdk/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/track_detail_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/track_detail_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/layout/track_row.xml" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\androidTest\java\com\mycompany\festivalhackmusic\ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\menu\menu_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\mipmap-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\mipmap-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\mipmap-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\values\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\gradlew" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\libs\7digital-Android-SDK" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\FestivalHackMusic.iml" afterPath="$PROJECT_DIR$/7digital-android-sdk-v0.93-withDependencies/7digital-android-sdk-v0.93-withDependencies.iml" />
-      <change type="MOVED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\.gitignore" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/.gitignore" />
-      <change type="MOVED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\proguard-rules.pro" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/proguard-rules.txt" />
-      <change type="MOVED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\values-w820dp\dimens.xml" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/values-w820dp/dimens.xml" />
-      <change type="MOVED" beforePath="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\src\main\res\values\styles.xml" afterPath="$PROJECT_DIR$/7DigitalAndroidSdk/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/TwilioClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/TwilioClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
     <ignored path="FestivalHackMusic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -216,20 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="31.2" vertical-offset="1086" max-vertical-offset="1921">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.52934134" vertical-offset="0" max-vertical-offset="2380">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52469134" vertical-offset="0" max-vertical-offset="810">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="561">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
@@ -1152,10 +1003,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/Song.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/Track.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/SongSQLHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -1840,14 +1691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.2" vertical-offset="1086" max-vertical-offset="1921">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.16" vertical-offset="501" max-vertical-offset="1309">
@@ -1888,8 +1731,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52469134" vertical-offset="0" max-vertical-offset="810">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="561">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mycompany/festivalhackmusic/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52934134" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
