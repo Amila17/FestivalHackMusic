@@ -10,13 +10,12 @@ import android.widget.TextView;
 
 import org.json.JSONException;
 
+
 import java.io.IOException;
-<<<<<<< HEAD
 import java.util.ArrayList;
-=======
+
 import java.security.SignatureException;
 import java.util.concurrent.ExecutionException;
->>>>>>> Added seven digital lib
 
 
 public class MainActivity extends ActionBarActivity {

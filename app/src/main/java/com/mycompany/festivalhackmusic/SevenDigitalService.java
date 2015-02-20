@@ -4,14 +4,12 @@ import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
 
-<<<<<<< HEAD
-=======
+
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 import uk.co.sevendigital.android.sdk.api.SDIApi;
 import uk.co.sevendigital.android.sdk.util.SDIServerUtil;
->>>>>>> Added seven digital lib
 
 /**
  * Created by AmilaPrabandhika on 20/02/2015.
