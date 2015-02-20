@@ -9,8 +9,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-import com.twilio.sdk.TwilioRestException;
-
 import java.io.IOException;
 
 
