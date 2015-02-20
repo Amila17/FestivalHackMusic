@@ -1,10 +1,17 @@
 package com.mycompany.festivalhackmusic;
 
+import android.os.StrictMode;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.view.*;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+
+import com.twilio.sdk.TwilioRestException;
+
+import java.io.IOException;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -13,6 +20,15 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        StrictMode.ThreadPolicy policy = new StrictMode.
+        ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+    }
+
+    public void sendNotification(View view) throws IOException {
+        TwilioClient client = new TwilioClient();
+        client.SendNotification("Eye of the tiger", 220);
     }
 
 
