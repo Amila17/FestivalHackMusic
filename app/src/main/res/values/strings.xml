@@ -5,4 +5,20 @@
     <string name="action_settings">Settings</string>
     <string name="send_notification">Send Notification</string>
     <string name="onStream" />
+    <string name="connected">Bluetooth connected</string>
+    <string name="disconnected">Bluetooth disconnected</string>
+    <string name="no_data">No data</string>
+    <string name="unknown_service">Uknown Service</string>
+    <string name="unknown_characteristic">Unknown Characteristic</string>
+    <string name="title_devices">Devices</string>
+    <string name="ble_not_supported">BLE not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="unknown_device">Device uknown</string>
+    <string name="label_data">Data</string>
+    <string name="label_state">State</string>
+    <string name="label_device_address">Device Address</string>
 </resources>
