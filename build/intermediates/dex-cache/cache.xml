@@ -2,74 +2,109 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Andon\.gradle\caches\modules-2\files-2.1\com.googlecode.json-simple\json-simple\1.1\5e303a03d04e6788dddfa3655272580ae0fc13bb\json-simple-1.1.jar"
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\json-simple-1.1-1a88cea73d63a1ae0814c9c5e243097d005f985b.jar" />
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/okhttp-2.2.0-29241211604c34de7071d97fbdbdd1e1dec6fffe.jar" />
     </item>
     <item
-        jar="C:\Users\Andon\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-mapper-asl\1.9.3\dd1373fe304f64ae3daa50e67b9b9cf6995ec1a0\jackson-mapper-asl-1.9.3.jar"
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="dd1373fe304f64ae3daa50e67b9b9cf6995ec1a0">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\jackson-mapper-asl-1.9.3-af5e622f2aafe3347f7e18f3bbb630b14aeb960f.jar" />
+        sha1="b2ece1bd57ac7b4c315b7505b65ac79cb1da4270">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/jackson-core-2.5.0-44526f5efc42f3a47118e4ffe757e0575fc2c03c.jar" />
     </item>
     <item
-        jar="E:\Android dev\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/okio-1.2.0-fbf0a41c4d6e9ff91984b080eab738a4bc7137ac.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.2.0/cb20062e14c523637b7643295418097b48cccec2/okhttp-urlconnection-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/okhttp-urlconnection-2.2.0-25ddc80c486db9103caf5abe65d9e21a1cab70aa.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8e0784a7b78d162b22ea1f960f620d054c0708a3.jar" />
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/support-annotations-21.0.3-312183bb0e8f0a194fe93ca48950e74cccead050.jar" />
     </item>
     <item
-        jar="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\classes-1d3a8601f015e6d9782a3236216a6cf67c8b44ce.jar" />
-    </item>
-    <item
-        jar="C:\Users\Andon\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-core-asl\1.9.3\e96286e8ebe4c5523d5621278dc2114116108a0e\jackson-core-asl-1.9.3.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="e96286e8ebe4c5523d5621278dc2114116108a0e">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\jackson-core-asl-1.9.3-783ee603c3cf167579a5bba1770bd16a036aba10.jar" />
-    </item>
-    <item
-        jar="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\classes-c67739f921349edd461d3631ba32b1c03be6d8a2.jar" />
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/classes-6b8539e8a0ec3f82659d15bdb050e96f1d5eebaa.jar" />
     </item>
     <item
-        jar="C:\Users\Andon\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.5\472f0f5f8dba5d1962cb9d7739feed739a31c30d\httpcore-4.2.5.jar"
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/org.simpleframework/simple-xml/2.7.1/dd91fb744c2ff921407475cb29a1e3fee397d411/simple-xml-2.7.1.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="472f0f5f8dba5d1962cb9d7739feed739a31c30d">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\httpcore-4.2.5-2fb5e2993e1f7d01ff392b7fd597f0e7ed22b50d.jar" />
+        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/simple-xml-2.7.1-67031bc6b0cfead72e3f7c3fda3c917ceaac9491.jar" />
     </item>
     <item
-        jar="C:\Users\Andon\.gradle\caches\modules-2\files-2.1\com.twilio.sdk\twilio-java-sdk\3.7.0\6b93785db381f850f807b18351240aa951358f69\twilio-java-sdk-3.7.0.jar"
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.10/8d62b91f5ccb6f7f872313191c016c03bb61a792/library-1.0.10.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="6b93785db381f850f807b18351240aa951358f69">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\twilio-java-sdk-3.7.0-b020a00161dbe09d4687dee18d2caee92cce40ed.jar" />
+        sha1="8d62b91f5ccb6f7f872313191c016c03bb61a792">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/library-1.0.10-d80c3bc5169cbb20ef73934bba0e05ceea6ef370.jar" />
     </item>
     <item
-        jar="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="5599707a3eaad13e889f691b3af78c8c03842195">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/joda-time-2.7-acbc61bfbb260ff82e023ca6a3d600706b204dbf.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/butterknife-6.1.0-ee6d311a086b0c9df2d297806be0dda51adcc1e6.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/classes-8b75cc97c485c764c5452a9bef6e52ce69fc273c.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a2a55a3375bc1cef830ca426d68d2ea22961190e">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/jackson-annotations-2.5.0-3386c07ea093318da392d6834147695511586a3c.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/exploded-aar/FestivalHackMusic/sdk/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="59f93ff071d84c6d99c96fbde41f438d8c0fbd80">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/classes-7d7f31c5a54f0b617743af5dfbd5b95ffe745103.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="489b7552dd3322b63f694122d16ce62c21c303b5">
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/jackson-databind-2.5.0-9482f8c13270783002d2b133115a4571efec8f99.jar" />
+    </item>
+    <item
+        jar="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-674155f60782593bc45d0620a4b164b56e8f412a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Andon\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
-        <dex dex="C:\Users\Andon\Documents\GitHub\FestivalHackMusic\FestivalHackMusic\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-cc143c991200ea578ae42ad493d494042ca35583.jar" />
+        <dex dex="/home/hallagat/Desktop/FestivalHackMusic/app/build/intermediates/pre-dexed/dexOptions/debug/internal_impl-21.0.3-5c8498e43a9c78b65e3d44b79c0783a2a66059e7.jar" />
     </item>
 
 </items>

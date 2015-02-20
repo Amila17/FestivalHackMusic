@@ -69,10 +69,7 @@ public class SongSQLHelper extends SQLiteOpenHelper {
 
     }
 
-    public String getValue(Node item, String str) {
-        NodeList n = item.getChildNodes().getElementsByTagName(str);
-        return this.getElementValue(n.item(0));
-    }
+
 
     public final String getElementValue( Node elem ) {
         Node child;
