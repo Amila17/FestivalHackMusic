@@ -2,6 +2,9 @@ package com.mycompany.festivalhackmusic;
 
 import android.app.ActivityManager;
 import android.content.Context;
+import android.media.AudioManager;
+import android.media.AudioTrack;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.app.ActionBarActivity;
@@ -16,6 +19,9 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -23,6 +29,7 @@ import java.security.SignatureException;
 import java.util.concurrent.ExecutionException;
 
 import uk.co.sevendigital.android.sdk.api.SDIApi;
+import uk.co.sevendigital.android.sdk.api.request.preview.SDIGetTrackPreviewRequest;
 import uk.co.sevendigital.android.sdk.util.SDIServerUtil;
 import uk.co.sevendigital.android.sdk.util.VolleyUtil;
 
@@ -51,17 +58,37 @@ public class MainActivity extends ActionBarActivity {
 
     public void onStream(View view) throws InterruptedException, ExecutionException, SignatureException, IOException {
 
-        TextView txtView = (TextView) findViewById(R.id.onStreamOutput);
-        txtView.setText("onStream Clicked");
+
 
         //SevenDigitalClient client = new SevenDigitalClient();
         //client.StreamMusic("38656894");
         SDIServerUtil.OauthConsumer sOauthConsumer = new SDIServerUtil.OauthConsumer("musichackday", "letmehack");
-        RequestQueue requestQueue = Volley.newRequestQueue(this);
+        RequestQueue requestQueue = Volley.newRequestQueue(this.getApplicationContext());
 
 
-        SDIApi sSDIApi = new SDIApi(this,requestQueue, sOauthConsumer);
-        sSDIApi.streaming().getTrackPreview("38656894");
+        SDIApi sSDIApi = new SDIApi(this.getApplicationContext(),requestQueue, sOauthConsumer);
+
+        SDIGetTrackPreviewRequest.Result result =  sSDIApi.streaming().getTrackPreview("38656894");
+        if(result.isSuccess())
+        {
+            File tempFile = File.createTempFile("38656894", ".mp3");
+            tempFile.deleteOnExit();
+            FileOutputStream fos = new FileOutputStream(tempFile);
+            fos.write(result.getTrackPreview());
+            fos.close();
+            FileInputStream fis = new FileInputStream(tempFile);
+
+            MediaPlayer mediaPlayer = new MediaPlayer();
+            mediaPlayer.setDataSource(fis.getFD());
+
+            mediaPlayer.prepare();
+            mediaPlayer.start();
+        }
+        else
+        {
+            TextView txtView = (TextView) findViewById(R.id.onStreamOutput);
+            txtView.setText("onStream Failed");
+        }
 
     }
 
