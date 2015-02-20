@@ -6,11 +6,17 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import org.json.JSONException;
 
 import java.io.IOException;
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+import java.security.SignatureException;
+import java.util.concurrent.ExecutionException;
+>>>>>>> Added seven digital lib
 
 
 public class MainActivity extends ActionBarActivity {
@@ -58,8 +64,11 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onStream(View view)
-    {
+    public void onStream(View view) throws InterruptedException, ExecutionException, SignatureException, IOException {
+
+        TextView txtView = (TextView) findViewById(R.id.onStreamOutput);
+        txtView.setText("onStream Clicked");
+       // SevenDigitalService.getApi().streaming().getTrackPreview("38656894");
 
     }
 

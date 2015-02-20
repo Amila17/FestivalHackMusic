@@ -29,5 +29,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3', 'com.mcxiaoke.volley:library:1.0.0'
+
+    compile files('D:/FestivalHack/Code/FestivalHackMusic/libs/7digital-android-sdk-v0.93-withDependencies.jar')
 }
