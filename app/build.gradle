@@ -37,7 +37,7 @@ android {
         compile 'com.mcxiaoke.volley:library:1.0.10'
         compile 'com.android.support:appcompat-v7:21.0.3'
         compile 'commons-codec:commons-codec:1.10'
-
+        compile 'com.google.code.gson:gson:1.7.2'
 
         //compile project(':sdk')
 

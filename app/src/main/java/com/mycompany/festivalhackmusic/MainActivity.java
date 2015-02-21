@@ -1,5 +1,6 @@
 package com.mycompany.festivalhackmusic;
 
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -7,6 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -17,6 +19,8 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 import java.security.SignatureException;
+import java.util.List;
+import java.util.Random;
 import java.util.concurrent.ExecutionException;
 
 
@@ -32,6 +36,16 @@ public class MainActivity extends ActionBarActivity {
             mediaPlayerService = new MediaPlayerService();
         }
 
+        final Intent intent = getIntent();
+        String mDeviceName = intent.getStringExtra("DEVICE_NAME");
+        String mDeviceAddress = intent.getStringExtra("DEVICE_ADDRESS");
+
+        TextView textView = (TextView)findViewById(R.id.dbDisplay);
+        textView.setText("DeviceName : " + mDeviceName);
+
+        TextView textView2 = (TextView)findViewById(R.id.dbDisplay);
+        textView2.setText("DeviceAddress : " + mDeviceAddress);
+
         setContentView(R.layout.activity_main);
 
         StrictMode.ThreadPolicy policy = new StrictMode.
@@ -40,6 +54,7 @@ public class MainActivity extends ActionBarActivity {
 
         SongSQLHelper myDbHelper = new SongSQLHelper(getApplicationContext());
         SQLiteDatabase db = myDbHelper.getWritableDatabase();
+        myDbHelper.InsertData(db);
         boolean loaded = true;
 
     }
@@ -64,8 +79,17 @@ public class MainActivity extends ActionBarActivity {
             {
                 try
                 {
+                    SongSQLHelper myDbHelper = new SongSQLHelper(getApplicationContext());
+
+                    List<Integer> trackIds = myDbHelper.GetTrackId("85");
+
+                    Random rand = new Random();
+                    Integer value = rand.nextInt(trackIds.size());
+
+                    final Integer trackId = trackIds.get(value);
+
                     SevenDigitalClient sevenDigitalClient = new SevenDigitalClient();
-                    File trackFile = sevenDigitalClient.GetTrack("38656894");
+                    File trackFile = sevenDigitalClient.GetTrack(Integer.toString(trackId));
 
                     mediaPlayerService.PlayMusic(trackFile);
                 }
