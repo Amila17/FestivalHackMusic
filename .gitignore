@@ -1,3 +1,5 @@
-.idea/
-.gradle/
+.idea/*
+.gradle/*
+app/build/*
+.gradle/*
 app/build/*
