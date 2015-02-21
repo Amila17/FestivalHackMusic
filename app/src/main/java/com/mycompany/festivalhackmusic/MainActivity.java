@@ -27,7 +27,8 @@ import java.util.concurrent.ExecutionException;
 public class MainActivity extends ActionBarActivity {
 
     public static MediaPlayerService mediaPlayerService;
-
+    public static Random heartBeatRandom;
+    int Low = 10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,15 +37,22 @@ public class MainActivity extends ActionBarActivity {
             mediaPlayerService = new MediaPlayerService();
         }
 
+        if(heartBeatRandom == null)
+        {
+            heartBeatRandom = new Random();
+        }
+
+
+
         final Intent intent = getIntent();
         String mDeviceName = intent.getStringExtra("DEVICE_NAME");
         String mDeviceAddress = intent.getStringExtra("DEVICE_ADDRESS");
 
-        TextView textView = (TextView)findViewById(R.id.dbDisplay);
+/*        TextView textView = (TextView)findViewById(R.id.dbDisplay);
         textView.setText("DeviceName : " + mDeviceName);
 
         TextView textView2 = (TextView)findViewById(R.id.dbDisplay);
-        textView2.setText("DeviceAddress : " + mDeviceAddress);
+        textView2.setText("DeviceAddress : " + mDeviceAddress);*/
 
         setContentView(R.layout.activity_main);
 
@@ -81,7 +89,12 @@ public class MainActivity extends ActionBarActivity {
                 {
                     SongSQLHelper myDbHelper = new SongSQLHelper(getApplicationContext());
 
-                    List<Integer> trackIds = myDbHelper.GetTrackId("85");
+
+                    int High = Low + 30;
+                    int R = heartBeatRandom.nextInt(High-Low) + Low;
+                    Low = R;
+
+                    List<Integer> trackIds = myDbHelper.GetTrackId(Integer.toString(R));
 
                     Random rand = new Random();
                     Integer value = rand.nextInt(trackIds.size());
